@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server/server.js",
     "test": "mocha server/**/*.test.js",
-    "test-watch": "nodemon --exec 'npm test'"
+    "test-watch": "nodemon --exec 'npm test'",
+    "count": "cloc public server"
   },
   "author": "diwap",
   "license": "ISC",
@@ -16,6 +17,7 @@
     "socket.io": "^2.0.4"
   },
   "devDependencies": {
+    "cloc": "^2.3.3",
     "expect": "^1.20.2",
     "mocha": "^5.1.1",
     "nodemon": "^1.17.4"
