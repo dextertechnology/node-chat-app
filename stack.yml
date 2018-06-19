@@ -2,7 +2,7 @@ version: '3.3'
 services:
 
   chat-app:
-    image: diwap/chat-app:latest
+    image: diwap/node-chat-app:latest
     ports:
       - "80:3000"
     build:
